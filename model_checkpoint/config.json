@@ -1,0 +1,15 @@
+{
+  "feature_pipeline": "TF-IDF(word 1-2gram, min_df=2, max_features=8000, sublinear_tf=True) concatenated with 4 VADER sentiment features [neg, neu, pos, compound]",
+  "classifier": "LogisticRegression(C=0.3, class_weight=\"balanced\", max_iter=3000, random_state=42)",
+  "label_map": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "public_test_accuracy": 0.625,
+  "public_test_macro_f1": 0.6109554933084345,
+  "comparison_model": {
+    "classifier": "MLPClassifier(...)",
+    "public_test_accuracy": 0.565,
+    "public_test_macro_f1": 0.4744948808553049
+  }
+}
