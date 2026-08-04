@@ -1,0 +1,3 @@
+Use of AI
+
+I used Claude (Anthropic's AI assistant) to help debug the code in stage1_notebook.ipynb, to diagnose issues in my training/evaluation setup and to help revise the markdown explanations. I reviewed, tested, and understood all code and results before submitting, and made the final decisions on model selection based on the evaluation results shown in the notebook.
