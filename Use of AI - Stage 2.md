@@ -1,0 +1,3 @@
+AI Disclosure - Stage 2
+
+I used Claude (Anthropic's AI assistant) to help fix errors in th  the inference code in stage2_notebook.ipynb and to help fix any grammar or make the explanations more professional in  hidden_test_evaluation.md and the markdown explanations in the notebook. I reviewed and understood all code and results, and confirmed no retraining or modification of the Stage 1 model occurred, as required.
